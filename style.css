@@ -1,17 +1,17 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-body{
+body {
     display: flex;
     flex-direction: column;
     font-family: 'poppins', sans-serif;
     padding: 0;
     margin: 0;
     background-image: url("Fundo.jpeg");
-    background-size:cover;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -20,25 +20,25 @@ body{
     width: 100vw;
 }
 
-p{
+p {
     color: aliceblue;
     font-size: px;
     margin: 0px;
 }
 
-h1{
+h1 {
     color: aliceblue;
     font-size: 50px;
     margin: 0px;
 }
 
-h3{
+h3 {
     color: aliceblue;
     font-size: 30px;
     margin: 0px;
 }
 
-main{
+main {
     padding: 0;
     display: flex;
     flex-direction: column;
@@ -47,21 +47,24 @@ main{
     justify-content: center;
 }
 
-footer{
+footer {
     padding: 4vh 11vw 4vh 11vw;
     height: 40vh;
     background: linear-gradient(135deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
     -webkit-backdrop-filter: blur(3px);
-    backdrop-filter: blur(3px); 
+    backdrop-filter: blur(3px);
     border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .rodape {
+    position: relative;
     display: flex;
     flex-direction: row;
+    align-items: center;
     height: 20vh;
 }
-.imagem-rodape{
+
+.imagem-rodape {
     display: flex;
     height: 20vh;
     align-items: center;
@@ -79,20 +82,20 @@ footer{
     height: auto;
     background: linear-gradient(135deg, rgba(53, 53, 53, 0.3), rgba(53, 53, 53, 0.2));
     -webkit-backdrop-filter: blur(3px);
-    backdrop-filter: blur(3px); 
+    backdrop-filter: blur(3px);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
     border: 1px solid rgba(255, 255, 255, 0.2);
-    border-radius: 30px;    
+    border-radius: 30px;
     padding: 4vh 5vw 4vh 5vw;
-    
+
 }
 
-.destaque{
+.destaque {
     height: 50vh;
     border-radius: 10px;
 }
 
-.conteudo2-caixa{
+.conteudo2-caixa {
     align-items: center;
     margin-top: 4vh;
     display: flex;
@@ -100,7 +103,7 @@ footer{
     gap: 30px;
 }
 
-.conteudo2-texto{
+.conteudo2-texto {
     width: 64vh;
 }
 
@@ -108,10 +111,11 @@ footer{
     justify-content: center;
     border-radius: 20px;
     box-shadow:
-    -10px 0 10px -5px rgba(0, 0, 0, 0.3), 
-     10px 0 10px -5px rgba(0, 0, 0, 0.3),
-     0 -10px 10px -5px rgba(0, 0, 0, 0.3),
-    0 10px 10px -5px rgba(0, 0, 0, 0.3);;
+        -10px 0 10px -5px rgba(0, 0, 0, 0.3),
+        10px 0 10px -5px rgba(0, 0, 0, 0.3),
+        0 -10px 10px -5px rgba(0, 0, 0, 0.3),
+        0 10px 10px -5px rgba(0, 0, 0, 0.3);
+    ;
     align-items: center;
     width: 70vw;
     margin: 0px;
@@ -119,15 +123,15 @@ footer{
     background-color: rgb(29, 38, 59);
     display: flex;
     text-align: justify;
-    height: 90vh;  
+    height: 90vh;
     padding: 4vh 11vw 4vh 11vw;
 }
 
-.Caixa-fundo-conteudo2{
+.Caixa-fundo-conteudo2 {
     padding-top: 5vh;
     box-shadow:
-    0 -10px 15px -5px rgba(0, 0, 0, 0.6),
-    0 10px 15px -5px rgba(0, 0, 0, 0.6);
+        0 -10px 15px -5px rgba(0, 0, 0, 0.6),
+        0 10px 15px -5px rgba(0, 0, 0, 0.6);
     margin-top: 35vh;
     height: 100vh;
     display: flex;
@@ -143,13 +147,13 @@ footer{
     height: 40vh;
     background: linear-gradient(135deg, rgba(53, 53, 53, 0.3), rgba(53, 53, 53, 0.2));
     -webkit-backdrop-filter: blur(3px);
-    backdrop-filter: blur(3px); 
+    backdrop-filter: blur(3px);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
     border: 1px solid rgba(255, 255, 255, 0.2);
-    border-radius: 30px;    
+    border-radius: 30px;
     align-items: center;
     justify-content: center;
-} 
+}
 
 .navbar {
     display: flex;
@@ -174,19 +178,19 @@ footer{
     display: flex;
 }
 
-.logo{
+.logo {
     height: 9vh;
     border-radius: 100%;
     object-fit: cover;
 }
 
-.ini-logo{
+.ini-logo {
     height: 90px;
     border-radius: 100%;
     object-fit: cover;
 }
 
-button{
+button {
     border-radius: 8px;
     color: aliceblue;
     padding: 10px;
@@ -197,7 +201,61 @@ button{
     border: none;
 }
 
-button:hover{
+button:hover {
     background-color: rgb(43, 51, 70);
     transition: background-color 0.4s ease, transform 0.4s ease;
+}
+
+a {
+    color: aliceblue;
+}
+
+h4 {
+    color: rgb(99, 115, 151);
+}
+
+.emails {
+    position: absolute;
+    top: 3.8vh;
+    margin-left: 15vw;
+    gap: 0.55vh;
+    font-size: 1.8vh;
+    display: flex;
+    flex-direction: column;
+    width: 15vw;
+}
+
+.devs {
+    font-size: 2.2vh;
+    margin-left: 5vw;
+    display: flex;
+    flex-direction: column;
+    width: 11vw;
+}
+
+.informacoes {
+    width: 35vw;
+}
+
+.email {
+    font-style: italic;
+    color: rgb(164, 164, 164);
+}
+
+.copyright-div {
+    position: absolute;
+    width: 10vw;
+    left: 80vw;
+    top: 20vh;
+}
+
+.copyright{
+    font-size: 1.6vh;
+    color: rgb(109, 109, 109);
+}
+
+.info-instituicao {
+    position:absolute;
+    left: 36vw;
+    font-size: 2.2vh;
 }
