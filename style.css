@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body{
     display: flex;
     flex-direction: column;
@@ -36,16 +42,36 @@ main{
     padding: 0;
     display: flex;
     flex-direction: column;
-    padding-top: 130px;
+    padding-top: 19vh;
     align-items: center;
     justify-content: center;
 }
 
+footer{
+    padding: 4vh 11vw 4vh 11vw;
+    height: 40vh;
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px); 
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.rodape {
+    display: flex;
+    flex-direction: row;
+    height: 20vh;
+}
+.imagem-rodape{
+    display: flex;
+    height: 20vh;
+    align-items: center;
+}
+
 .Conteúdo1 {
-    margin-top: 300px;
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-bottom: 0px;
+    margin-top: 34vh;
+    margin-left: 11vw;
+    margin-right: 11vw;
+    margin-bottom: 0vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -57,46 +83,64 @@ main{
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 30px;    
-    padding: 20px 80px 20px 80px
+    padding: 4vh 5vw 4vh 5vw;
     
 }
 
 .destaque{
-    height: 400px;
+    height: 50vh;
     border-radius: 10px;
 }
 
 .conteudo2-caixa{
+    align-items: center;
+    margin-top: 4vh;
     display: flex;
     flex-direction: row;
     gap: 30px;
 }
 
 .conteudo2-texto{
-    width: 500px;
+    width: 64vh;
 }
 
 .Conteúdo2 {
+    justify-content: center;
+    border-radius: 20px;
     box-shadow:
-    0 -10px 15px -5px rgba(0, 0, 0, 0.6),  /* sombra no topo */
-    0 10px 15px -5px rgba(0, 0, 0, 0.6);
+    -10px 0 10px -5px rgba(0, 0, 0, 0.3), 
+     10px 0 10px -5px rgba(0, 0, 0, 0.3),
+     0 -10px 10px -5px rgba(0, 0, 0, 0.3),
+    0 10px 10px -5px rgba(0, 0, 0, 0.3);;
     align-items: center;
-    width: 100vw;
+    width: 70vw;
     margin: 0px;
     flex-direction: column;
-    background-color: rgb(29, 38, 59);;
-    margin-top: 300px;
+    background-color: rgb(29, 38, 59);
     display: flex;
     text-align: justify;
-    height: 1000px;  
-    padding: 20px 180px 20px 180px
+    height: 90vh;  
+    padding: 4vh 11vw 4vh 11vw;
+}
+
+.Caixa-fundo-conteudo2{
+    padding-top: 5vh;
+    box-shadow:
+    0 -10px 15px -5px rgba(0, 0, 0, 0.6),
+    0 10px 15px -5px rgba(0, 0, 0, 0.6);
+    margin-top: 35vh;
+    height: 100vh;
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    background-color: rgb(52, 68, 104);
 }
 
 .inicial {
     display: flex;
     flex-direction: column;
-    width: 600px;
-    height: 300px;
+    width: 83vh;
+    height: 40vh;
     background: linear-gradient(135deg, rgba(53, 53, 53, 0.3), rgba(53, 53, 53, 0.2));
     -webkit-backdrop-filter: blur(3px);
     backdrop-filter: blur(3px); 
@@ -112,13 +156,14 @@ main{
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    height: 80px;
+    height: 11vh;
     background-color: rgb(29, 38, 59);
     padding: 0 20px;
 }
 
 .navbar-logo {
     display: flex;
+    height: 11vh;
     align-items: center;
 }
 
@@ -130,7 +175,7 @@ main{
 }
 
 .logo{
-    height: 60px;
+    height: 9vh;
     border-radius: 100%;
     object-fit: cover;
 }
@@ -145,8 +190,8 @@ button{
     border-radius: 8px;
     color: aliceblue;
     padding: 10px;
-    width: 150px;
-    height: 80px;
+    width: 10vw;
+    height: 11vh;
     font-family: "poppins", sans-serif;
     background-color: rgb(29, 38, 59);
     border: none;
