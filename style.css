@@ -160,14 +160,14 @@ footer {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    height: 11vh;
+    height: 9vh;
     background-color: rgb(29, 38, 59);
     padding: 0 20px;
 }
 
 .navbar-logo {
     display: flex;
-    height: 11vh;
+    height: 7vh;
     align-items: center;
 }
 
@@ -179,32 +179,14 @@ footer {
 }
 
 .logo {
-    height: 9vh;
+    height: 7vh;
     border-radius: 100%;
-    object-fit: cover;
 }
 
 .ini-logo {
     height: 13vh;
     border-radius: 100%;
     object-fit: cover;
-}
-
-button {
-    font-size: 0.8vw;
-    border-radius: 8px;
-    color: aliceblue;
-    padding: 10px;
-    width: 10vw;
-    height: 11vh;
-    font-family: "poppins", sans-serif;
-    background-color: rgb(29, 38, 59);
-    border: none;
-}
-
-button:hover {
-    background-color: rgb(43, 51, 70);
-    transition: background-color 0.4s ease, transform 0.4s ease;
 }
 
 a {
@@ -259,4 +241,21 @@ h4 {
     position:absolute;
     left: 36vw;
     font-size: 2.2vh;
+}
+
+.links:hover{
+    background-color: rgb(43, 51, 70);
+    transition: background-color 0.4s ease, transform 0.4s ease;
+}
+
+.links{
+    border-radius: 5px;
+    padding-top: 3.2vh;
+    display: block; 
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 0.8vw;
+    width: 8vw;
+    height: 9vh;
 }
