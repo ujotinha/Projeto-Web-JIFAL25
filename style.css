@@ -22,19 +22,19 @@ body {
 
 p {
     color: aliceblue;
-    font-size: px;
+    font-size: 2vh;
     margin: 0px;
 }
 
 h1 {
     color: aliceblue;
-    font-size: 50px;
+    font-size: 6vh;
     margin: 0px;
 }
 
 h3 {
     color: aliceblue;
-    font-size: 30px;
+    font-size: 4vh;
     margin: 0px;
 }
 
@@ -185,12 +185,13 @@ footer {
 }
 
 .ini-logo {
-    height: 90px;
+    height: 13vh;
     border-radius: 100%;
     object-fit: cover;
 }
 
 button {
+    font-size: 0.8vw;
     border-radius: 8px;
     color: aliceblue;
     padding: 10px;
