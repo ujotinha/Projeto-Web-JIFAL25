@@ -220,3 +220,51 @@ footer {
     /*color: #adb9ff;*/
     color: rgb(112, 133, 182);
 }
+
+.inicial {
+    align-items: center;
+    background: linear-gradient(135deg, rgba(53, 53, 53, 0.3), rgba(53, 53, 53, 0.2));
+    backdrop-filter: blur(3px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 30px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    justify-content: center;
+    width: 83vh;
+    -webkit-backdrop-filter: blur(3px);
+}
+
+#container{
+    width: 85vw;
+    height: 147vh;
+    padding: 16px;
+    display: flex;;
+    justify-content: center;
+    align-items: center;
+}
+#equipes-container{
+    background-color: rgb(29, 38, 59);
+    width: 90%;
+    height: 90%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 16px;
+    gap: 10px;
+    align-self: center;
+}
+
+#title-equipes{
+    width: 80%;
+    height: 10vh;
+}
+
+.equipes-conteudo{
+    background-color: rgb(52, 68, 104);
+    height: 25vh;
+    width: 30vw;
+    border-radius: 10px;
+}
