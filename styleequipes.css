@@ -5,19 +5,18 @@
 }
 
 body {
+    width: 100vw;
     background-attachment: fixed;
     background-image: url("Fundo.jpeg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100vw;
     display: flex;
     flex-direction: column;
     font-family: 'poppins', sans-serif;
-    height: 100vh;
-    margin: 0;
     overflow-x: hidden;
+    margin: 0;
     padding: 0;
-    width: 100vw;
 }
 
 a {
@@ -53,6 +52,7 @@ main {
     justify-content: center;
     padding: 0;
     padding-top: 19vh;
+    gap: 5vh;
 }
 
 footer {
@@ -60,7 +60,7 @@ footer {
     backdrop-filter: blur(3px);
     border: 1px solid rgba(255, 255, 255, 0.2);
     -webkit-backdrop-filter: blur(3px);
-    height: 40vh;
+    height: 29vh;
     padding: 4vh 11vw;
 }
 
@@ -236,28 +236,33 @@ footer {
     -webkit-backdrop-filter: blur(3px);
 }
 
-#container{
+.container{
+    margin-bottom: 20vh;
+    margin-top: 50vh;
     width: 85vw;
     height: 147vh;
     padding: 16px;
-    display: flex;;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-#equipes-container{
+
+.equipes-container{
     background-color: rgb(29, 38, 59);
-    width: 90%;
+    width: 70vw;
     height: 200vh;
     border-radius: 10px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
-    padding: 16px;
+    padding: 25px;
     gap: 10px;
-    align-self: center;
+    justify-content: center;
+    justify-self: center;
 }
 
-#title-equipes{
+.title-equipes{
     width: 80%;
     height: 10vh;
 }
@@ -273,7 +278,7 @@ footer {
     gap: 32px;
 }
 
-#container-conteudo{
+.container-conteudo{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -299,4 +304,8 @@ footer {
 
 .link-perfil{
     font-size: 12px;
+}
+
+.titulo-equipes {
+    margin-left: 4vw;
 }
