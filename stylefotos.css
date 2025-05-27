@@ -263,12 +263,11 @@ footer {
     align-self: center;
     display: flex;
     flex-direction: row;
-    height: 33.4vh;
+    height: 33.8vh;
     max-width: 80vw;
     overflow-x: auto;
     gap: 1vw;
     scroll-behavior: smooth;
-
 }
 
 .fotos::-webkit-scrollbar-thumb{
