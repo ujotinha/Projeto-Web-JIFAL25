@@ -62,7 +62,7 @@ footer {
     backdrop-filter: blur(3px);
     border: 1px solid rgba(255, 255, 255, 0.2);
     -webkit-backdrop-filter: blur(3px);
-    height: 40vh;
+    height: 29vh;
     padding: 4vh 11vw;
 }
 
