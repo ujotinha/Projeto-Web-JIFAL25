@@ -55,6 +55,21 @@ main {
     padding-top: 19vh;
 }
 
+.inicial {
+    align-items: center;
+    background: linear-gradient(135deg, rgba(53, 53, 53, 0.3), rgba(53, 53, 53, 0.2));
+    backdrop-filter: blur(3px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 30px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    justify-content: center;
+    width: 83vh;
+    -webkit-backdrop-filter: blur(3px);
+}
+
 footer {
     background: linear-gradient(135deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
     backdrop-filter: blur(3px);
@@ -221,4 +236,55 @@ footer {
     color: rgb(112, 133, 182);
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 38vh;
+    width: 86vw;
+    height: 46vh;
+    background-color: rgb(29, 38, 59);
+    border-radius: 20px;
+    padding: 2vh;
+}
 
+.container-1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+    width: 86vw;
+    height: 46vh;
+    background-color: rgb(29, 38, 59);
+    border-radius: 20px;
+    padding: 2vh;
+    margin-bottom: 16vh;
+}
+
+.fotos {
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    height: 33.4vh;
+    max-width: 80vw;
+    overflow-x: auto;
+    gap: 1vw;
+    scroll-behavior: smooth;
+
+}
+
+.fotos::-webkit-scrollbar-thumb{
+    background-color: rgb(52, 55, 121);
+}
+
+.fotos::-webkit-scrollbar{
+    height: 1vh;
+}
+
+.titulo-fotos{
+    margin-left: 4vw;
+    margin-bottom: 1vh;
+}
+
+.foto{
+    border-radius: 6px;
+    height: 32vh;
+}
