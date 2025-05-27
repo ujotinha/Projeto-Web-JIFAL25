@@ -228,6 +228,23 @@ footer {
     color: rgb(112, 133, 182);
 }
 
+.titulo-principal {
+    color: rgba(255, 255, 255, 0.849);
+    font-size: 4vh;
+    margin-top: 10vh; 
+    margin-bottom: 1vh;
+    text-shadow: 1px 1px 3px rgb(29, 38, 59);
+    text-align: center;
+}
+
+.subtitulo-principal {
+    color: #c0bdbdd8;
+    font-size: 2vh;
+    margin-bottom: 0vh;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgb(29, 38, 59);
+}
+
 .dia{
     background-color:rgb(29, 38, 59);
     border-radius: 10px;
@@ -288,6 +305,22 @@ footer {
   
 }
 
+.cabecalho2 {
+    background-color: rgba(0, 0, 0, 0.466);
+    border-radius: 10px;
+    color: white;
+    font-size: 1.7vh;
+    margin-top: 0.5vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1vh 2vw;
+    border-bottom: 2px solid white;
+    padding: 0.5vh 0;
+    justify-items: center;
+    gap:1vw;
+  
+}
+
 .jogos {
     max-height: 26vh;
     overflow-y: auto;
@@ -308,6 +341,20 @@ footer {
     justify-items: center;
     display: grid;
     grid-template-columns: 1fr 1.4fr 1.3fr 1fr;
+    gap: 1vw;
+
+}
+
+.jogo2 {
+    background-color: rgba(255, 255, 255, 0.08);
+    padding: 1vh;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.7vh;
+    margin-top: 0.5vh;
+    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 0.9fr 0.5fr ;
     gap: 1vw;
 
 }
