@@ -225,21 +225,33 @@ footer {
 
 .container{
     display: flex; 
+    flex-direction: column;
     background-color: rgb(29, 38, 59);
     border-radius: 10px;
-    height: 80vh;
-    width: 150vh;
-    justify-content: space-around;
+    height: 117vh;
+    width: 70vw;
     flex-wrap: wrap;
     padding: 5vh;
-    max-height: 50vh;
-    overflow-y: auto;
-    width: auto;
     scrollbar-width: none;
+    gap: 6vh;
+    padding-top: 7vh;
+    align-items: center;
+}
+
+.inicial {
+    align-items: center;
+    background: linear-gradient(135deg, rgba(53, 53, 53, 0.3), rgba(53, 53, 53, 0.2));
+    backdrop-filter: blur(3px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 30px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
     display: flex;
     flex-direction: column;
-    gap: 1vh;
-    padding: 0 1vw;
+    height: 40vh;
+    justify-content: center;
+    width: 90vh;
+    -webkit-backdrop-filter: blur(3px);
+    margin-bottom: 38vh;
 }
 
 .quadro{
@@ -256,7 +268,6 @@ footer {
         0 10px 10px -5px rgba(0, 0, 0, 0.2);
     align-items: center;
     gap: 1vh;
-    margin-bottom: 8vh;
 }
 
 .nome-modalidade{
@@ -292,4 +303,13 @@ footer {
     flex-direction: column;
     gap: 1vh;
     padding: 0 1vw;
+}
+
+.container-menor{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-height: 30vh;
+    width: 66vw;
+    gap: 1vw;
 }
