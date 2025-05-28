@@ -230,10 +230,21 @@ footer {
     height: 80vh;
     width: 150vh;
     justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 5vh;
+    max-height: 50vh;
+    overflow-y: auto;
+    width: auto;
+    scrollbar-width: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    padding: 0 1vw;
 }
 
 .quadro{
     display: flex; 
+    flex-direction: column;
     background-color: rgba(29, 38, 59, 0.692);
     border-radius: 10px;
     height: 30vh;
@@ -243,10 +254,9 @@ footer {
         10px 0 10px -5px rgba(0, 0, 0, 0.2),
         0 -10px 10px -5px rgba(0, 0, 0, 0.2),
         0 10px 10px -5px rgba(0, 0, 0, 0.2);
-    margin: auto;
-    justify-content: space-around;
-    
-      
+    align-items: center;
+    gap: 1vh;
+    margin-bottom: 8vh;
 }
 
 .nome-modalidade{
@@ -260,3 +270,26 @@ footer {
     align-items: center;
 }
 
+.info{
+    background-color: rgba(255, 255, 255, 0.08);
+    padding: 1vh;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.7vh;
+    margin-top: 0.5vh;
+    justify-items: center;
+    gap: 1vw;
+    width: 90%;
+    width: 18vw;
+}
+
+.rolagem{
+    max-height: 20vh;
+    overflow-y: auto;
+    width: auto;
+    scrollbar-width: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    padding: 0 1vw;
+}
