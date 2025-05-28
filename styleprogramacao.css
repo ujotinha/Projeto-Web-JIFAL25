@@ -239,7 +239,7 @@ footer {
     flex-direction: column;
     height: 40vh;
     justify-content: center;
-    width: 83vh;
+    width: 90vh;
     -webkit-backdrop-filter: blur(3px);
     margin-bottom: 38vh;
 }
