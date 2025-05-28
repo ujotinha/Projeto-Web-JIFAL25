@@ -1,311 +1,316 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
 body {
-    width: 100vw;
-    background-attachment: fixed;
-    background-image: url("Fundo.jpeg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    font-family: 'poppins', sans-serif;
-    overflow-x: hidden;
-    margin: 0;
-    padding: 0;
+	width: 100vw;
+	background-attachment: fixed;
+	background-image: url("Fundo.jpeg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	font-family: 'poppins', sans-serif;
+	overflow-x: hidden;
+	margin: 0;
+	padding: 0;
 }
 
 a {
-    color: aliceblue;
+	color: aliceblue;
 }
 
 h1 {
-    color: aliceblue;
-    font-size: 6vh;
-    margin: 0px;
+	color: aliceblue;
+	font-size: 6vh;
+	margin: 0px;
 }
 
 h3 {
-    color: aliceblue;
-    font-size: 4vh;
-    margin: 0px;
+	color: aliceblue;
+	font-size: 4vh;
+	margin: 0px;
 }
 
 h4 {
-    color: rgb(99, 115, 151);
+	color: rgb(99, 115, 151);
 }
 
 p {
-    color: aliceblue;
-    font-size: 2vh;
-    margin: 0px;
+	color: aliceblue;
+	font-size: 2vh;
+	margin: 0px;
 }
 
 main {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 0;
-    padding-top: 19vh;
-    gap: 5vh;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 0;
+	padding-top: 19vh;
+	gap: 5vh;
 }
 
 footer {
-    background: linear-gradient(135deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-    backdrop-filter: blur(3px);
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    -webkit-backdrop-filter: blur(3px);
-    height: 29vh;
-    padding: 4vh 11vw;
+	background: linear-gradient(135deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+	backdrop-filter: blur(3px);
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	-webkit-backdrop-filter: blur(3px);
+	height: 29vh;
+	padding: 4vh 11vw;
 }
 
 .rodape {
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    height: 20vh;
-    position: relative;
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	height: 20vh;
+	position: relative;
 }
 
 .imagem-rodape {
-    align-items: center;
-    display: flex;
-    height: 20vh;
+	align-items: center;
+	display: flex;
+	height: 20vh;
 }
 
 .navbar {
-    position: relative;
-    align-items: center;
-    background-color: rgb(29, 38, 59);
-    display: flex;
-    flex-wrap: wrap;
-    height: 9vh;
-    justify-content: space-between;
-    padding: 0 20px;
+	position: relative;
+	align-items: center;
+	background-color: rgb(29, 38, 59);
+	display: flex;
+	flex-wrap: wrap;
+	height: 9vh;
+	justify-content: space-between;
+	padding: 0 20px;
 }
 
 .navbar-links {
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    left: 50%;
-    position: absolute;
-    transform: translateX(-50%);
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	left: 50%;
+	position: absolute;
+	transform: translateX(-50%);
 }
 
 .logo {
-    margin-top: 0.6vh;
-    border-radius: 100%;
-    height: 7vh;
+	margin-top: 0.6vh;
+	border-radius: 100%;
+	height: 7vh;
 }
 
 .ini-logo {
-    border-radius: 100%;
-    height: 13vh;
-    object-fit: cover;
+	border-radius: 100%;
+	height: 13vh;
+	object-fit: cover;
 }
 
 .emails {
-    display: flex;
-    flex-direction: column;
-    font-size: 1.8vh;
-    gap: 0.55vh;
-    margin-left: 15vw;
-    position: absolute;
-    top: 3.8vh;
-    width: 15vw;
+	display: flex;
+	flex-direction: column;
+	font-size: 1.8vh;
+	gap: 0.55vh;
+	margin-left: 15vw;
+	position: absolute;
+	top: 3.8vh;
+	width: 15vw;
 }
 
 .email {
-    color: rgb(164, 164, 164);
-    font-style: italic;
+	color: rgb(164, 164, 164);
+	font-style: italic;
 }
 
 .devs {
-    display: flex;
-    flex-direction: column;
-    font-size: 2.2vh;
-    margin-left: 5vw;
-    width: 11vw;
+	display: flex;
+	flex-direction: column;
+	font-size: 2.2vh;
+	margin-left: 5vw;
+	width: 11vw;
 }
 
 .informacoes {
-    width: 35vw;
+	width: 35vw;
 }
 
 .info-instituicao {
-    font-size: 2.2vh;
-    left: 36vw;
-    position: absolute;
+	font-size: 2.2vh;
+	left: 36vw;
+	position: absolute;
 }
 
 .copyright-div {
-    left: 80vw;
-    position: absolute;
-    top: 20vh;
-    width: 10vw;
+	left: 80vw;
+	position: absolute;
+	top: 20vh;
+	width: 10vw;
 }
 
 .copyright {
-    color: rgb(109, 109, 109);
-    font-size: 1.6vh;
+	color: rgb(109, 109, 109);
+	font-size: 1.6vh;
 }
 
 .link1, .link2, .link3, .link4, .link5{
-    display: flex;
-    font-weight: 600;
-    font-size: 0.8vw;
-    transition: 0.5s;
-    text-decoration: none;
+	display: flex;
+	font-weight: 600;
+	font-size: 0.8vw;
+	transition: 0.5s;
+	text-decoration: none;
 }
 
 .link1{
-    position: absolute;
-    transform: translate(-50%, -50%);
-    left: 38%;
-    top: 0%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	left: 38%;
+	top: 0%;
 }
 
 .link2{
-    position: absolute;
-    transform: translate(-50%, -50%);
-    left: 45%;
-    top: 0%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	left: 45%;
+	top: 0%;
 }
 
 .link3{
-    position: absolute;
-    transform: translate(-50%, -50%);
-    left: 50%;
-    top: 0%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	left: 50%;
+	top: 0%;
 }
 
 .link4{
-    position: absolute;
-    transform: translate(-50%, -50%);
-    left: 55%;
-    top: 0%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	left: 55%;
+	top: 0%;
 }
 
 .link5{
-    position: absolute;
-    transform: translate(-50%, -50%);
-    left: 62%;
-    top: 0%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	left: 62%;
+	top: 0%;
 }
 
 .material-icons{
-    font-size: 3.6vh;
+	font-size: 3.6vh;
 }
 
 .linkhome {
-    position: absolute;
-    transform: translateX(-50%);
-    left: 6%;
-    margin-top: 0.6vh;
-    transition: 0.5s;
+	position: absolute;
+	transform: translateX(-50%);
+	left: 6%;
+	margin-top: 0.6vh;
+	transition: 0.5s;
 }
 
 .linkhome:hover{
-    color: rgb(112, 133, 182);
+	color: rgb(112, 133, 182);
 }
 
 
 .link1:hover, .link2:hover, .link3:hover, .link4:hover, .link5:hover {
-    /*color: #adb9ff;*/
-    color: rgb(112, 133, 182);
+	/*color: #adb9ff;*/
+	color: rgb(112, 133, 182);
 }
 
 .inicial {
-    align-items: center;
-    background: linear-gradient(135deg, rgba(53, 53, 53, 0.3), rgba(53, 53, 53, 0.2));
-    backdrop-filter: blur(3px);
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    border-radius: 30px;
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-    display: flex;
-    flex-direction: column;
-    height: 40vh;
-    justify-content: center;
-    width: 83vh;
-    -webkit-backdrop-filter: blur(3px);
+	align-items: center;
+	background: linear-gradient(135deg, rgba(53, 53, 53, 0.3), rgba(53, 53, 53, 0.2));
+	backdrop-filter: blur(3px);
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	border-radius: 30px;
+	box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+	display: flex;
+	flex-direction: column;
+	height: 40vh;
+	justify-content: center;
+	width: 83vh;
+	-webkit-backdrop-filter: blur(3px);
 }
 
 .container{
-    margin-bottom: 20vh;
-    margin-top: 50vh;
-    width: 85vw;
-    height: 147vh;
-    padding: 16px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+	margin-bottom: 20vh;
+	margin-top: 50vh;
+	width: 85vw;
+	height: 147vh;
+	padding: 16px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .equipes-container{
-    background-color: rgb(29, 38, 59);
-    width: 70vw;
-    height: 200vh;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    padding: 25px;
-    gap: 10px;
-    justify-content: center;
-    justify-self: center;
+	background-color: rgb(29, 38, 59);
+	width: 70vw;
+	height: 20vh;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	gap: 10px;
+	justify-content: center;
+	justify-self: center;
 }
 
 .title-equipes{
-    width: 80%;
-    height: 10vh;
+	width: 100%;
+	height: 15vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
 }
 
 .equipes-conteudo{
-    background-color: rgb(52, 68, 104);
-    height: 25vh;
-    width: 30vw;
-    border-radius: 10px;
-    display: flex;
-    padding: 6px;
-    justify-content: center;
-    gap: 32px;
+	background-color: rgb(52, 68, 104);
+	height: 25vh;
+	width: 30vw;
+	border-radius: 10px;
+	display: flex;
+	padding: 6px;
+	justify-content: center;
+	gap: 32px;
 }
 
 .container-conteudo{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    gap: 16px;
+	padding: 25px;
+	width: 70vw;
+	background-color: rgba(29, 38, 59, 0.692);
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	gap: 16px;
 }
 
 .imagem-turmas{
-    border-radius: 100%;
-    height: 16vh;
-    align-self: center;
+	border-radius: 100%;
+	height: 16vh;
+	align-self: center;
 }
 
 .informacoes-equipes{
-    align-self: center;
-    height: 16vh;
-    width: 14vw;
+	align-self: center;
+	height: 16vh;
+	width: 14vw;
 }
 
 .cor-equipe{
-    font-size: 16px;
+	font-size: 16px;
 }
 
 .link-perfil{
-    font-size: 12px;
-}
-
-.titulo-equipes {
-    margin-left: 4vw;
+	font-size: 12px;
 }
