@@ -33,6 +33,7 @@ body {
     justify-content: center;
     width: 83vh;
     -webkit-backdrop-filter: blur(3px);
+    margin-bottom: 38vh;
 }
 
 a {
@@ -73,6 +74,7 @@ main {
     flex-direction: column;
     justify-content: center;
     padding: 0;
+    padding-top: 19vh;
 }
 
 footer {
@@ -244,27 +246,102 @@ footer {
 }
 
 .container {
+    padding: 6vh;
     border-radius: 20px;
     margin-top: 3vw;
     display: flex;
     flex-direction: column;
-    width: 85vw;
-    height: 200vh;
+    align-items: center;
+    width: 75vw;
+    height: auto;
     background-color: rgb(29, 38, 59);
+    margin-bottom: 10vh;
+}
+
+.quadro{
+    display: flex; 
+    flex-direction: column;
+    background-color: rgba(29, 38, 59, 0.692);
+    border-radius: 10px;
+    height: 27vh;
+    width: 20vw;
+    box-shadow:
+        -10px 0 10px -5px rgba(0, 0, 0, 0.2),
+        10px 0 10px -5px rgba(0, 0, 0, 0.2),
+        0 -10px 10px -5px rgba(0, 0, 0, 0.2),
+        0 10px 10px -5px rgba(0, 0, 0, 0.2);
+    align-items: center;
+    gap: 1vh;
+}
+
+.nome-modalidade{
+    border-radius: 10px;
+    background-color: rgb(22, 31, 51);
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    height: 7vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.Vôlei{
+    display: flex;
+    flex-direction: row;
+    width: 63vw;
+    max-height: 27vh;
+    gap: 1vw;
+    justify-content: center;
+}
+
+.Futsal{
+    display: flex;
+    flex-direction: row;
+    width: 63vw;
+    max-height: 27vh;
+    gap: 1vw;
+    justify-content: center;
+}
+
+.Basquete {
+    display: flex;
+    flex-direction: row;
+    width: 63vw;
+    max-height: 27vh;
+    gap: 1vw;
+    justify-content: center;
+}
+
+.Handebol{
+    display: flex;
+    flex-direction: row;
+    width: 63vw;
+    max-height: 27vh;
+    gap: 1vw;
+    justify-content: center;
 }
 
 .container-1{
-    
-}
-
-.desfoque {
+    margin-top: 5vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    width: 100vw;
-    height: 100%;
-    background: linear-gradient(135deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-    backdrop-filter: blur(3px);
-    -webkit-backdrop-filter: blur(3px);
+    width: 63vw;
+    flex-wrap: wrap;
+    max-width: 63vw;
+    gap: 3vh;
+}
+
+.info{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.08);
+    padding: 1vh;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.7vh;
+    margin-top: 0.5vh;
+    justify-items: center;
+    gap: 1vw;
+    width: 90%;
+    width: 18vw;
 }
